@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _mencpy - function name
+ * _memcpy - function name
  * @dest: parameter 1
- * @spc: parameter 2
+ * @src: parameter 2
  * @n: parameter 3
  * Return: dest
  */
@@ -16,6 +16,6 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 	{
 		dest[i] = src[i];
 	}
-	return (dest);
+		return (dest);
 
 }
