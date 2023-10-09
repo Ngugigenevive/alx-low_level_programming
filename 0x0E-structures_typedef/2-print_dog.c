@@ -1,11 +1,11 @@
-#include "dog.h"
 #include <stdio.h>
+#include <stdlib.h>
+#include "dog.h"
 
 /**
- * print_dog - print dog
- * @d: dog to print
+ * print_dog - prints a struct dog
+ * @d: struct dog to print
  */
-
 void print_dog(struct dog *d)
 {
 	if (d != NULL)
@@ -16,3 +16,4 @@ void print_dog(struct dog *d)
 	}
 
 }
+
